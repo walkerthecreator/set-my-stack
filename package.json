@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "my-cli-tool": "./index.js"
+    "set-my-stack": "./index.js"
   },
   "type": "module",
   "scripts": {
@@ -14,6 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^13.0.0"
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.3.0",
+    "ora": "^8.1.1"
   }
 }
